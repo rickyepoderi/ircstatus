@@ -1,0 +1,6 @@
+#!/bin/sh -x
+
+autoreconf -iv
+cd po
+intltool-update --pot
+cd ..

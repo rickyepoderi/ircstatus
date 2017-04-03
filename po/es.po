@@ -1,0 +1,17 @@
+msgid  "Nick away suffix"
+msgstr "Sufijo cuando away"
+
+msgid  "IRC Status"
+msgstr "Estado IRC"
+
+msgid  "Changes your nick when changing your status."
+msgstr "Modifica tu nic de IRC cuando se modifica tu estado en pidgin."
+
+msgid  "This plugin changes your nick in the selected IRC account based on the piggin general status."
+msgstr "Este plugin modifica tu nick en la cuenta IRC seleccionada basandose en el estado general de pidgin."
+
+msgid  "IRC account to update nick"
+msgstr "Cuenta IRC para cambiar el nick"
+
+msgid  "Separator"
+msgstr "Separador"

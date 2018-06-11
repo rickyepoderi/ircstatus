@@ -140,7 +140,7 @@ static void status_changed_cb(PurpleSavedStatus *saved_status) {
 			if (purple_savedstatus_get_type(saved_status) == PURPLE_STATUS_AVAILABLE) {
 				new_nick = g_strdup(username[0]);
 			} else {
-				new_nick = g_strconcat(username[0], separator, status_title);
+				new_nick = g_strconcat(username[0], separator, status_title, NULL);
 			}
 			if (g_strcmp0(old_nick, new_nick) != 0) {
 				change_nick(account, new_nick);
